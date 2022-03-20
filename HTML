@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Brush Script MT';
+        background-color: black;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(34, 33, 33);
+    }
+    
+    .topnav a {
+        float: left;
+        color: #db072a;
+        text-align: center;
+        padding: 1%;
+        text-decoration: none;
+        font-size: 80px;
+    }
+    
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 0px;
+    }
+    
+    .row1 {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 0;
+        font-size: 80px;
+        color: white;
+        font-family: '';
+    }
+    
+    .column {
+        -ms-flex: 50%;
+        /* IE10 */
+        flex: 50%;
+        max-width: 47.1%;
+    }
+    /* Create four equal columns that sits next to each other */
+    
+    .column2 {
+        /* -ms-flex: 50%; */
+        /* IE10 */
+        flex: 10%;
+        max-width: 25%;
+        font-family: 'Brush Script MT';
+    }
+    
+    .column1 {
+        -ms-flex: 50%;
+        /* IE10 */
+        flex: 50%;
+        max-width: 55%;
+    }
+    
+    .top-left-fixed {
+        position: absolute;
+        top: 8%;
+        left: 7%;
+        transform: translate(-25%, -5%);
+        font-size: 3.5vw;
+        color: rgb(219, 7, 42);
+    }
+    
+    .column img {
+        margin-top: 0px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    
+    .column1 img {
+        margin-top: 0px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+</style>
+
+<body>
+
+    <!-- Header -->
+    <div class="topnav">
+        <a class="about" href="#About Me">About Me</a>
+        <a href="#Skils">Skils</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Socials">Socials</a>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="1.jpeg" style="width:100%" alt="Evan Willman">
+            <div class="top-left-fixed">
+                <p> Evan Willman</p>
+                <p> Miami University</p>
+            </div>
+        </div>
+        <div class="column1">
+            <img src="5.jpg " style="width:100% ">
+            <img src="4.jpg " style="width:100% ">
+        </div>
+    </div>
+    <h1 style="font-size: 4.5vw; color: white;">About me</h1>
+    <p3 style="font-size: 2.5vw; font-family:arial; color: white;">I am currently enrolled at Miami University. My Major is Computer Information Technology, The codes I have programmed in are C# and Python [beginner level].</p3>
+
+    <div class="row1">
+        <div class="column2">
+            <h2 style="font-size: 3.5vw;">Colleges and trade schools</h2>
+            <li style="font-size: 2.5vw;">Lean Six Sigma Yellow Belt</li>
+        </div>
+        <div class="column2">
+            <h2 style="font-size: 3.5vw;">Software Development</h2>
+            <li style="font-size: 2.5vw;">Lean Six Sigma Yellow Belt</li>
+        </div>
+        <div class="column2">
+            <h2 style="font-size: 3.5vw;">lectronic engineering projects</h2>
+            <li style="font-size: 2.5vw;">Lean Six Sigma Yellow Belt</li>
+        </div>
+        <div class="column2">
+            <h2 style="font-size: 3.5vw;">Certifications Achieved </h2>
+            <li style="font-size: 2.5vw;">Lean Six Sigma Yellow Belt</li>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
